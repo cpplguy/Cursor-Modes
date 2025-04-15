@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cursor Modes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+<audio id = "sound1" src = "mixkit-fast-double-click-on-mouse-275.wav"></audio>
+<audio id = "sound2" src = "woosh-230554.mp3"></audio>
+<audio id = "sound3" src = "mixkit-modern-technology-select-3124.wav"></audio>
+<audio id = "sound4" src = "ding-small-bell-sfx-233008.mp3"></audio>
+<audio id = "sound5" src = "mixkit-clear-mouse-clicks-2997.wav"></audio>
+<audio id = "scarySound" src = "horror-sfx-02-37508.mp3"></audio>
+<h1 style = "z-index:100000">MOUSE MODES</h1>
+<h2>Test the different cursor modes!</h2>
+<div class="box" id = "auto">hover to activate auto mode</div>
+<div class="box" id = "default">hover to activate default mode</div>
+<div class="box" id = "none">hover to activate none</div>
+<div class="box" id = "help">hover to activate help mode</div>
+<div class="box" id = "context-menu">hover to activate context-menu mode</div>
+<div class="box" id = "pointer">hover to activate pointer mode</div>
+<div class="box" id = "progress">hover to activate progress mode</div>
+<div class="box" id = "wait">hover to activate wait mode</div>
+<div class="box" id = "cell">hover to activate cell mode</div>
+<div class="box" id = "crosshair">hover to activate crosshair mode</div>
+<div class="box" id = "text">hover to activate text mode</div>
+<div class="box" id = "vertical-text">hover to activate vertical-text mode</div>
+<div class="box" id = "alias">hover to activate alias mode</div>
+<div class="box" id = "copy">hover to activate copy mode</div>
+<div class="box" id = "move">hover to activate move mode</div>
+<div class="box" id = "no-drop">hover to activate no-drop mode</div>
+<h1 class = "fun">fun buttons</h1>
+<section class = "button-contain">
+<button class = "button" onClick ="randdomColor()">Click me to change to a random background color!</button>
+<button class = "button" onClick = "randdomFont()">Click me to change the fonts!</button>
+<button id = "night" class = "button" onclick="night()">night mode</button>
+<button id = "reset" class = "button" onclick="reset()">reset</button>
+</section>
+<footer><span id = "copyright">&copy;</span> Ramon Guo <span id = "year"></span><br> all rights reserved <br> <span id = "time"></span> <br> ramonguo136@gmail.com</footer>
+<script src = "hover.js" ></script>
+</body>
